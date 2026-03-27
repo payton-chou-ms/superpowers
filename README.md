@@ -94,6 +94,19 @@ To update:
 gemini extensions update superpowers
 ```
 
+### GitHub Copilot (VS Code & github.com)
+
+Superpowers works with GitHub Copilot through the `.github/copilot-instructions.md` file. When this repository is your workspace, Copilot automatically loads these instructions.
+
+**To add superpowers to your own project:**
+
+1. Copy the `.github/copilot-instructions.md` file from this repository into your project's `.github/` directory.
+2. Copy the `skills/` directory into your project.
+
+That's it — Copilot Chat in VS Code and on github.com will automatically pick up the instructions.
+
+**To update:** Pull the latest versions of `copilot-instructions.md` and the `skills/` directory from this repository.
+
 ### Verify Installation
 
 Start a new session in your chosen platform and ask for something that should trigger a skill (for example, "help me plan this feature" or "let's debug this issue"). The agent should automatically invoke the relevant superpowers skill.
