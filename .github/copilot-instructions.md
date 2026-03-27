@@ -53,12 +53,12 @@ For the full tool mapping reference, see `skills/using-superpowers/references/co
 Skills are in the `skills/` directory. Each has a `SKILL.md` file:
 
 - **brainstorming** — Use before any creative work (features, components, modifications)
-- **dispatching-parallel-agents** — Use for 2+ independent tasks (falls back to executing-plans)
+- **dispatching-parallel-agents** — Use for 2+ independent tasks (no subagent support — use `executing-plans` instead)
 - **executing-plans** — Use when you have a written implementation plan
 - **finishing-a-development-branch** — Use when implementation is complete and tests pass
 - **receiving-code-review** — Use when receiving code review feedback
 - **requesting-code-review** — Use when completing tasks or before merging
-- **subagent-driven-development** — Use for plan execution (falls back to executing-plans)
+- **subagent-driven-development** — Use for plan execution (no subagent support — use `executing-plans` instead)
 - **systematic-debugging** — Use when encountering any bug or unexpected behavior
 - **test-driven-development** — Use when implementing any feature or bugfix
 - **using-git-worktrees** — Use when starting feature work needing isolation
